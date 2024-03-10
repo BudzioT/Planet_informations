@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="/Planets_informations/">
+    <file alias="Main.qml">D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/Main.qml</file>
+    <file alias="images/earth.jpeg">D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/images/earth.jpeg</file>
+    <file alias="images/jupiter.jpeg">D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/images/jupiter.jpeg</file>
+    <file alias="images/mars.jpeg">D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/images/mars.jpeg</file>
+    <file alias="images/mercury.jpeg">D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/images/mercury.jpeg</file>
+    <file alias="images/neptune.jpeg">D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/images/neptune.jpeg</file>
+    <file alias="images/saturn.jpeg">D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/images/saturn.jpeg</file>
+    <file alias="images/uranus.jpeg">D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/images/uranus.jpeg</file>
+    <file alias="images/venus.jpeg">D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/images/venus.jpeg</file>
+    <file alias="images/menu_white.svg">D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/images/menu_white.svg</file>
+  </qresource>
+</RCC>
+

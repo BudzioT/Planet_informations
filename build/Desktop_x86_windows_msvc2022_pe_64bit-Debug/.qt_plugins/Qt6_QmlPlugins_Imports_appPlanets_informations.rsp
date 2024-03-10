@@ -1,0 +1,14 @@
+-rootPath
+D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations
+-cmake-output
+-output-file
+D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appPlanets_informations.cmake
+-importPath
+D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Planets_informations
+-importPath
+D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug
+-importPath
+D:/Aplikacje/QT_new/6.6.1/msvc2019_64/./qml
+-qrcFiles
+D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.rcc/qmake_Planets_informations.qrc
+D:/Pobrane/Kolko_informatyczne/QML_Projects/Planets_informations/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.rcc/appPlanets_informations_raw_qml_0.qrc

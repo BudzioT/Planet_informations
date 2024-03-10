@@ -1,0 +1,5 @@
+module Planets_informations
+typeinfo appPlanets_informations.qmltypes
+prefer :/Planets_informations/
+Main 1.0 Main.qml
+
