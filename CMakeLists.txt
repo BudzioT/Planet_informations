@@ -19,6 +19,11 @@ qt_add_qml_module(appPlanets_informations
         Main.qml
         RESOURCES images/earth.jpeg images/jupiter.jpeg images/mars.jpeg images/mercury.jpeg images/neptune.jpeg images/saturn.jpeg images/uranus.jpeg images/venus.jpeg
         RESOURCES images/menu_white.svg
+        RESOURCES
+        RESOURCES
+        RESOURCES
+        RESOURCES sounds/tap.wav
+        RESOURCES sounds/exit.wav
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

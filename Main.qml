@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import Qt.labs.platform as Platform
+import QtMultimedia
 
 Window {
     id: root
@@ -150,7 +151,10 @@ Window {
             MouseArea {
                 anchors.fill: parent
 
-                onClicked: parent.state = "expanded"
+                onClicked: {
+                    clickButtonSound.play()
+                    parent.state = "expanded"
+                }
             }
 
             Flickable {
@@ -208,7 +212,10 @@ Window {
 
                 MouseArea {
                     anchors.fill: parent
-                    onClicked: wrapper.state = ""
+                    onClicked: {
+                        wrapper.state = ""
+                        exitSound.play()
+                    }
                 }
             }
 
@@ -297,6 +304,7 @@ Window {
                     onClicked: {
                         drawer.close()
                         model.triggered()
+                        clickButtonSound.play()
                     }
                 }
 
@@ -423,6 +431,7 @@ Window {
 
         onYesClicked: {
             quitAnim.start()
+            exitSound.play()
         }
 
         SequentialAnimation {
@@ -468,5 +477,15 @@ Window {
 
             onFinished: function () { Qt.quit(); }
         }
+    }
+
+    SoundEffect {
+        id: clickButtonSound
+        source: "sounds/tap.wav"
+    }
+
+    SoundEffect {
+        id: exitSound
+        source: "sounds/exit.wav"
     }
 }
